@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Gabarito';
+    src: url('../fonts/gabarito-fonts/fonts/webfonts/Gabarito-Regular.woff2') format('woff2');
+    src: url('../fonts/gabarito-fonts/fonts/ttf/Gabarito-Regular.ttf') format('true-type');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: center;
+    padding: center;
+    background-color: #ffffff;
+    background-image: url(https://wallpapers.com/images/featured/dark-souls-3-v1o1t9c26gw4q645.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+
+}
+
+
+#texto {
+  width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    font-family: 'Gabarito', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+ 
+.imagem {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+  border-radius: 8px;
+
+}
+
+.titulo {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: 'Gabarito', Arial, Helvetica, sans-serif;
+
+
+}
